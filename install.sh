@@ -5,13 +5,14 @@ apt-get install guacamole -y
 apt-get install xrdp -y
 apt-get install xorgxrdp -y
 apt-get install cinnamon -y
-rm /var/lib/tomcat8/webapps/ROOT
-mv ./lib/ROOT.war /var/lib/tomcat8/webapps/
+apt-get install freerdp -y
+rmdir /var/lib/tomcat8/webapps/ROOT
+mv ./lib/ROOT.war /var/lib/tomcat8/webapps
 dpkg -i ./lib/shticker-book-rewritten_1.2.1_amd64.deb
 apt-get install -f
 rm /etc/guacamole/user-mapping.xml
-mv ./lib/user-mapping.xml /etc/guacamole/
+mv ./lib/user-mapping.xml /etc/guacamole
 rm /etc/xrdp/startwm.sh
-mv ./lib/startwm.sh /etc/xrdp/
+mv ./lib/startwm.sh /etc/xrdp
 /etc/init.d/tomcat8 restart
 /etc/init.d/guacd start
