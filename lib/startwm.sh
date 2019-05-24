@@ -1,6 +1,3 @@
-# xrdp X session start script (c) 2015 mirabilos
-# published under The MirOS Licence
-
 if test -r /etc/default/locale; then
 	. /etc/default/locale
 	test -z "${LANG+x}" || export LANG
@@ -21,15 +18,9 @@ if test -r /etc/default/locale; then
 	test -z "${LOCPATH+x}" || export LOCPATH
 fi
 
-#original:
-#test -x /etc/X11/Xsession && exec /etc/X11/Xsession
-#exec /bin/sh /etc/X11/Xsession
-
-#modified:
 export LOGNAME=$USER
 export LIBGL_ALWAYS_INDIRECT=1
 unset DBUS_SESSION_BUS_ADDRESS
 cinnamon-session
-#gnome-session
-#startxfce4
-#unity
+sleep 15s
+sudo shticker-book-rewritten
