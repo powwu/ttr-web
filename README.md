@@ -2,7 +2,7 @@ All sources to software I used in the making of this project are located at the 
 #    Installation
 ###     **Script is not currently finished, and so this will NOT work.**
 
-##    Step 1: Script installation
+##    Step 1: Installing via the Script
 This script is designed to work with Ubuntu 18.04 servers. If you are looking for a reliable and cheap hosting service, I recommend DigitalOcean.
 
 Install git if you haven't already:
