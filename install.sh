@@ -1,5 +1,5 @@
 #!/bin/bash
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y cinnamon; sudo apt-get install -y freerdp
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y cinnamon; sudo apt-get install -y freerdp-x11
 wait
 sudo rm /var/lib/tomcat8/webapps/ROOT
 wait
