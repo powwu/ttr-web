@@ -1,49 +1,11 @@
 <user-mapping>
-
-    <!-- Example user configurations are given below. For more information,
-         see the user-mapping.xml section of the Guacamole configuration
-         documentation: http://guac-dev.org/Configuring%20Guacamole -->
-
-    <!-- Per-user authentication and config information -->
-    <!--
-    <authorize username="USERNAME" password="PASSWORD">
-        <protocol>vnc</protocol>
-        <param name="hostname">localhost</param>
-        <param name="port">5900</param>
-        <param name="password">VNCPASS</param>
-    </authorize>
-    -->
-
-    <!-- Another user, but using md5 to hash the password
-         (example below uses the md5 hash of "PASSWORD") -->
-
     <authorize 
-            username="powwu"
-            password="owo"
-            encoding="md5">
-<!--
-        <connection name="Desktop (VNC)">
-        <protocol>vnc</protocol>
-        <param name="hostname">localhost</param>
-        <param name="port">5900</param>
-        <param name="password"></param>
-        </connection>
--->
-        <connection name="Terminal Login">
-        <protocol>ssh</protocol>
-        <param name="hostname">localhost</param>
-        <param name="port">22</param>
-        </connection>
-        <connection name="Print Station Terminal Login">
-        <protocol>ssh</protocol>
-        <param name="hostname">192.168.1.88</param>
-        <param name="port">32</param>
-        </connection>
-        <connection name="Desktop Login">
+            username="toontown"
+            password="rewritten">
+        <connection name="Toontown Rewritten">
         <protocol>rdp</protocol>
         <param name="hostname">localhost</param>
         <param name="port">3389</param>
         </connection>
     </authorize>
-
 </user-mapping>
