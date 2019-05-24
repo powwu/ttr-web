@@ -19,11 +19,13 @@ git clone https://github.com/powwu/ttr-web.git
 ```bash
 cd ~/ttr-web/
 ```
+⠀
 
 Initiate install script:
 ```bash
 sudo ./install.sh
 ```
+Wait. The script will take a while.
 ⠀
 
 Reboot your server. Check to see if the proper scripts are running with the following commands:
