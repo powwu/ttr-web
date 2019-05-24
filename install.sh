@@ -9,6 +9,9 @@ rm /var/lib/tomcat8/webapps/ROOT
 mv ./lib/ROOT.war /var/lib/tomcat8/webapps/
 dpkg -i ./lib/shticker-book-rewritten_1.2.1_amd64.deb
 apt-get install -f
-
+rm /etc/guacamole/user-mapping.xml
+mv ./lib/user-mapping.xml /etc/guacamole/
+rm /etc/xrdp/startwm.sh
+mv ./lib/startwm.sh /etc/xrdp/
 /etc/init.d/tomcat8 restart
 /etc/init.d/guacd start
