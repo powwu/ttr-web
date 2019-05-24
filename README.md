@@ -1,5 +1,3 @@
-Toontown Rewritten, but in a web browser.
-
 #    Installation
 Install git if you haven't already:
 `sudo apt-get install git`
