@@ -22,6 +22,9 @@ cd ~/ttr-web/
 ⠀
 
 Initiate install script:
+```bash 
+chmod +x ./install.sh
+```
 ```bash
 sudo ./install.sh
 ```
