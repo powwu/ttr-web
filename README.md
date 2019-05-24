@@ -42,7 +42,8 @@ Reboot your server. Check to see if the proper scripts are running with the foll
 
 if they are not running, run the startup script:
 ```bash
-sudo ./startup.sh
+chmod +x ~/ttr-web/startup.sh
+sudo ~/ttr-web/startup.sh
 ```
 ⠀
 
