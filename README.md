@@ -26,6 +26,7 @@ Initiate install script:
 sudo ./install.sh
 ```
 Wait. The script will take a while.
+
 ⠀
 
 Reboot your server. Check to see if the proper scripts are running with the following commands:
