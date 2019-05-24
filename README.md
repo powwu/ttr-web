@@ -28,7 +28,7 @@ chmod +x ./install.sh
 ```bash
 sudo ./install.sh
 ```
-Wait. The script will take a while.
+##### Wait. The script will take a while.
 
 ⠀
 
