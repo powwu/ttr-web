@@ -15,27 +15,27 @@ Clone the repository to your desktop:
 cd ~/Desktop
 ```
 ```bash
-`git clone https://github.com/powwu/ttr-web.git`
+git clone https://github.com/powwu/ttr-web.git
 ```
 ⠀
 
 Initiate install script:
 ```bash
-`sudo ./install.sh`
+sudo ./install.sh
 ```
 ⠀
 
 Reboot your server. Check to see if the proper scripts are running with the following commands:
 ```bash
-`/etc/init.d/tomcat8 status`
+/etc/init.d/tomcat8 status
 ```
 ```bash
-`/etc/init.d/guacd status`
+/etc/init.d/guacd status
 ```
 
 if they are not running, run the startup script:
 ```bash
-`sudo ./startup.sh`
+sudo ./startup.sh
 ```
 ⠀
 
