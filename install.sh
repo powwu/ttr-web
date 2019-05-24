@@ -16,3 +16,6 @@ rm /etc/xrdp/startwm.sh
 mv ./lib/startwm.sh /etc/xrdp
 /etc/init.d/tomcat8 restart
 /etc/init.d/guacd start
+
+
+echo "Script completed! Reboot your server and continue following the steps in the README.md."
