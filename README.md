@@ -2,7 +2,7 @@
 ###     **Script is not currently finished, and so this will NOT work.**
 
 ##    Step 1: Script installation
-This script is designed to work with Ubuntu 18.04 servers. If you would like to run this on another type of Linux server, please DM me on Twitter and I can work something out.
+This script is designed to work with Ubuntu 18.04 servers. If you are looking for a reliable and cheap hosting service, I recommend DigitalOcean.
 
 Install git if you haven't already:
 
@@ -31,6 +31,7 @@ Reboot your server. Check to see if the proper scripts are running with the foll
 `/etc/init.d/guacd status`
 
 if they are not running, run the startup script:
+
 `sudo ./startup.sh`
 
 ⠀
