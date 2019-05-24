@@ -7,7 +7,7 @@ sudo mv ./lib/ROOT.war /var/lib/tomcat8/webapps
 wait
 sudo dpkg -i ./lib/shticker-book-rewritten_1.2.1_amd64.deb
 wait
-sudo apt-get install -f
+sudo apt-get install -y -f
 wait
 sudo rm /etc/guacamole/user-mapping.xml
 wait
