@@ -9,14 +9,16 @@ sudo apt-get install git
 ```
 ⠀
 
-Clone the repository to your desktop:
+Clone the repository to your home folder:
 ```bash
-cd ~/Desktop
+cd ~/
 ```
 ```bash
 git clone https://github.com/powwu/ttr-web.git
 ```
-⠀
+```bash
+cd ~/ttr-web/
+```
 
 Initiate install script:
 ```bash
