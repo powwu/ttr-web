@@ -1,7 +1,7 @@
 <user-mapping>
     <authorize 
-            username="toontown"
-            password="rewritten">
+            username="user"
+            password="changeyourpassword">
         <connection name="Toontown Rewritten">
         <protocol>rdp</protocol>
         <param name="hostname">localhost</param>
