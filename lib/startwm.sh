@@ -18,9 +18,8 @@ if test -r /etc/default/locale; then
 	test -z "${LOCPATH+x}" || export LOCPATH
 fi
 
-export LOGNAME=$USER
-export LIBGL_ALWAYS_INDIRECT=1
-unset DBUS_SESSION_BUS_ADDRESS
-cinnamon-session
+test -x /etc/X11/Xsession && exec /etc/X11/Xsession
+exec /bin/sh /etc/X11/Xsession
+startxfce4
 sleep 15s
 sudo shticker-book-rewritten
