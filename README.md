@@ -60,8 +60,6 @@ This project uses Xrdp, with source available [here](https://github.com/neutrino
 
 This project uses XorgXrdp, with source available [here](https://github.com/neutrinolabs/xorgxrdp).
 
-This project uses FreeRDP, with source available [here](https://github.com/FreeRDP/FreeRDP).
-
 This project uses Shticker Book Rewritten, with source available [here](https://github.com/madsciencecoder/Shticker-Book-Rewritten).
 
 This project uses tomcat8, with source available [here](https://github.com/apache/tomcat).
