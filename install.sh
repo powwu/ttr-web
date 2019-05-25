@@ -3,6 +3,10 @@ clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo 
 wait
 sudo rm /var/lib/tomcat8/webapps/ROOT/*
 wait
+sudo rm /var/lib/tomcat8/webapps/ROOT/META-INF/*
+wait
+sudo rmdir /var/lib/tomcat8/webapps/ROOT/META-INF
+wait
 sudo rmdir /var/lib/tomcat8/webapps/ROOT
 wait
 sudo cp ~/ttr-web/lib/ROOT.war /var/lib/tomcat8/webapps
