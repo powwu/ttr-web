@@ -1,3 +1,3 @@
 #!/bin/bash
-sudo -i
-apt-get install supervisor
+sudo apt-get install supervisor
+wait
