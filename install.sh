@@ -1,5 +1,5 @@
 #!/bin/bash
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal
 wait
 sudo rm /var/lib/tomcat8/webapps/ROOT/*
 wait
@@ -31,7 +31,7 @@ sudo rmdir ~/.config/xfce4
 wait
 sudo cp ~/ttr-web/lib/config/xfce4 ~/.config/
 wait
-sudo cp ~/ttr-web/lib/ToontownRewritten.sh ~/Desktop/
+sudo ~/ttr-web/lib/ToontownRewritten.sh
 wait
 sudo /etc/init.d/tomcat8 restart
 wait
