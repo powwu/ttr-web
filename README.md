@@ -1,7 +1,7 @@
 #    Installation (choose one)
-## [Windows](https://github.com/powwu/ttr-web/wiki/Installation-(Windows))
+***[Windows](https://github.com/powwu/ttr-web/wiki/Installation-(Windows))***
 
-## [Ubuntu](https://github.com/powwu/ttr-web/wiki/Installation-(Ubuntu))
+***[Ubuntu](https://github.com/powwu/ttr-web/wiki/Installation-(Ubuntu))***
 # Credits
 
 This project uses Guacamole, with source available [here](https://github.com/apache/guacamole-server) for the server and [here](https://github.com/apache/guacamole-client) for the client.
