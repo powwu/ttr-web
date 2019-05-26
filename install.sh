@@ -25,14 +25,6 @@ sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp
 wait
 chmod +x /etc/xrdp/startwm.sh
 wait
-sudo rm ~/.config/xfce4/*
-wait
-sudo rmdir ~/.config/xfce4
-wait
-sudo cp ~/ttr-web/lib/config/xfce4 ~/.config/
-wait
-sudo ~/ttr-web/lib/ToontownRewritten.sh
-wait
 sudo /etc/init.d/tomcat8 restart
 wait
 sudo /etc/init.d/guacd start
