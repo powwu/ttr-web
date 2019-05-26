@@ -29,7 +29,7 @@ sudo rm ~/.config/xfce4/*
 wait
 sudo rmdir ~/.config/xfce4
 wait
-sudo cp ~/ttr-web/lib/.config/xfce4 ~/.config/
+sudo cp ~/ttr-web/lib/config/xfce4 ~/.config/
 wait
 sudo /etc/init.d/tomcat8 restart
 wait
