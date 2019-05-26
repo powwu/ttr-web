@@ -11,7 +11,7 @@
 
 This project uses Apache Guacamole, with source available [here](https://github.com/apache/guacamole-server) for the server and [here](https://github.com/apache/guacamole-client) for the client.
 
-This project uses MATE Terminal, with source available [here](https://github.com/mate-desktop/mate-terminal)
+This project uses MATE Terminal, with source available [here](https://github.com/mate-desktop/mate-terminal).
 
 This project uses Shticker Book Rewritten, with source available [here](https://github.com/madsciencecoder/Shticker-Book-Rewritten).
 
