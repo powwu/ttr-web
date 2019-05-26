@@ -23,6 +23,8 @@ sudo rm /etc/xrdp/startwm.sh
 wait
 sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp
 wait
+chmod +x /etc/xrdp/startwm.sh
+wait
 sudo rm ~/.config/xfce4/*
 wait
 sudo rmdir ~/.config/xfce4
