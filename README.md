@@ -1,4 +1,7 @@
 #    Installation (choose one)
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/179cb6d6d0c64a19a69ab957eec8a565)](https://app.codacy.com/app/hadesnotatsujin/ttr-web?utm_source=github.com&utm_medium=referral&utm_content=powwu/ttr-web&utm_campaign=Badge_Grade_Dashboard)
+
 ***[Windows](https://github.com/powwu/ttr-web/wiki/Installation-(Windows))***
 
 ***[Ubuntu](https://github.com/powwu/ttr-web/wiki/Installation-(Ubuntu))***
