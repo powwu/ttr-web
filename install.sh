@@ -31,6 +31,8 @@ sudo rmdir ~/.config/xfce4
 wait
 sudo cp ~/ttr-web/lib/config/xfce4 ~/.config/
 wait
+sudo cp ~/ttr-web/lib/ToontownRewritten.sh ~/Desktop/
+wait
 sudo /etc/init.d/tomcat8 restart
 wait
 sudo /etc/init.d/guacd start
