@@ -1,7 +1,7 @@
 All sources to software I used in the making of this project are located at the **very bottom**.
 #    Installation (incomplete)
 ##    Step 1: Installing via the Script
-This script is designed to work with Ubuntu 18.04 servers. If you are looking for a reliable and cheap hosting service, I recommend DigitalOcean.
+This script is designed to work with Ubuntu 18.04 servers. **Due to TTR's VPN blocking, running this from the cloud requires a bit of configuring (but home servers are A-OK!). For more information, visit the Troubleshooting tab of the wiki.**
 
 Install git if you haven't already:
 ```bash
@@ -30,6 +30,7 @@ sudo ./install.sh
 ```
 ##### Wait. The script will take a while.
 
+
 ⠀
 
 Reboot your server. Check to see if the proper scripts are running with the following commands:
@@ -48,8 +49,13 @@ sudo ~/ttr-web/startup.sh
 ⠀
 
 ##    Step 2: Port forwarding
-### TL;DR forward ports 8080, 3389, and 4822.
+### TL;DR forward ports 8080, 3389, and 4822 over TCP.
 
+If you're running a cloud-based server, this (probably) doesn't apply to you! Please skip to Step 3.
+
+Open your router settings. This will be usually located at `192.168.1.1`. If prompted for a password, enter it accordingly. If you do not know where a password is, the router password is typically located on a sticker attached to the router itself.
+
+Once logged in, look for a section called "*Port Forwarding*". Here, you will need to select your server, TCP connection, and port 8080. Then, repeat the previous instructions with port 3389, and then once more with port 4822. Make sure you apply the changes!
 
 
 # Credits
