@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 if test -r /etc/default/locale; then
 	. /etc/default/locale
 	test -z "${LANG+x}" || export LANG
