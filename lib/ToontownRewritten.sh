@@ -1,0 +1,1 @@
+sudo shticker-book-rewritten
