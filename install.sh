@@ -15,6 +15,8 @@ sudo dpkg -i ~/ttr-web/lib/shticker-book-rewritten_1.2.1_amd64.deb
 wait
 sudo apt-get install -y -f
 wait
+sudo apt-get install libatomic1
+wait
 sudo rm /etc/guacamole/user-mapping.xml
 wait
 sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole
