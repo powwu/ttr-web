@@ -27,6 +27,8 @@ sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp
 wait
 chmod +x /etc/xrdp/startwm.sh
 wait
+echo xfce4-session >~/.xsession
+wait
 sudo /etc/init.d/tomcat8 restart
 wait
 sudo /etc/init.d/guacd start
