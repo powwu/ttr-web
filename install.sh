@@ -1,5 +1,5 @@
 #!/bin/bash
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install gnome-icon-theme
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install gnome-icon-theme; sudo apt-get install zip
 wait
 sudo rm /var/lib/tomcat8/webapps/ROOT/*
 wait
@@ -21,7 +21,13 @@ sudo rm /etc/guacamole/user-mapping.xml
 wait
 sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole
 wait
-sudp cp ~/ttr-web/lib/config/xfce4 ~/.config/
+sudo unzip ~/ttr-web/lib/xfce4.zip
+wait
+sudo unzip ~/ttr-web/lib/Thunar.zip
+wait
+sudo cp ~/ttr-web/lib/xfce4 ~/.config/
+wait
+sudo cp ~/ttr-web/lib/xfce4 ~/.config/
 wait
 sudo rm /etc/xrdp/startwm.sh
 wait
