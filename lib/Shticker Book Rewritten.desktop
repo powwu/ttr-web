@@ -1,0 +1,10 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Shticker Book Rewritten
+Comment=
+Exec=sudo shticker-book-rewritten
+Icon=shticker-book-rewritten
+Path=
+Terminal=true
+StartupNotify=false
