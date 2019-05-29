@@ -1,5 +1,5 @@
 #!/bin/bash
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install gnome-icon-theme; sudo apt-get install zip
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install gnome-icon-theme; sudo apt-get install unzip
 wait
 sudo rm /var/lib/tomcat8/webapps/ROOT/*
 wait
