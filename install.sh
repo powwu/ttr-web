@@ -27,7 +27,7 @@ sudo unzip ~/ttr-web/lib/Thunar.zip
 wait
 sudo cp ~/ttr-web/lib/xfce4 ~/.config/
 wait
-sudo cp ~/ttr-web/lib/xfce4 ~/.config/
+sudo cp ~/ttr-web/lib/Thunar ~/.config/
 wait
 sudo cp ~/ttr-web/lib/Terminal.desktop ~/Desktop/
 wait
