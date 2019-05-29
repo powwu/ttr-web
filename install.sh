@@ -29,6 +29,10 @@ sudo cp ~/ttr-web/lib/xfce4 ~/.config/
 wait
 sudo cp ~/ttr-web/lib/xfce4 ~/.config/
 wait
+sudo cp ~/ttr-web/lib/Terminal.desktop ~/Desktop/
+wait
+sudo cp ~/ttr-web/lib/Shticker.desktop ~/Desktop/
+wait
 sudo rm /etc/xrdp/startwm.sh
 wait
 sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp
