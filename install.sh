@@ -8,7 +8,7 @@ clear; sudo mkdir /etc/supervisor; sudo mkdir /etc/supervisor/conf.d; sudo cp ~/
 wait
 
 # Setting up tomcat8
-clear; sudo rm /var/lib/tomcat8/webapps/ROOT/*; sudo rm /var/lib/tomcat8/webapps/ROOT/META-INF/*; sudo rmdir /var/lib/tomcat8/webapps/ROOT/META-INF; sudo rmdir /var/lib/tomcat8/webapps/ROOT; sudo cp ~/ttr-web/lib/ROOT.war /var/lib/tomcat8/webapps
+clear; sudo rm /var/lib/tomcat8/webapps/ROOT/*; sudo rm /var/lib/tomcat8/webapps/ROOT/META-INF/*; sudo rmdir /var/lib/tomcat8/webapps/ROOT/META-INF; sudo rmdir /var/lib/tomcat8/webapps/ROOT; sudo cp ~/ttr-web/lib/ROOT.war /var/lib/tomcat8/webapps/
 wait
 
 # Setting up Shticker Book Rewritten
