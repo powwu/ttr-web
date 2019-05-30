@@ -22,4 +22,20 @@ fi
 test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 exec /bin/sh /etc/X11/Xsession
 rm ~/ToontownRewritten/settings.json
+sudo unzip ~/ttr-web/lib/xfce4.zip
+wait
+sudo unzip ~/ttr-web/lib/Thunar.zip
+wait
+sudo cp ~/ttr-web/lib/xfce4 ~/.config/
+wait
+sudo cp ~/ttr-web/lib/Thunar ~/.config/
+wait
+sudo rm ~/Desktop/Terminal.desktop
+wait
+sudo rm ~/Desktop/Shticker.desktop
+wait
+sudo cp ~/ttr-web/lib/Terminal.desktop ~/Desktop/
+wait
+sudo cp ~/ttr-web/lib/Shticker.desktop ~/Desktop/
+wait
 startxfce4
