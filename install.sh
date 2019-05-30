@@ -4,7 +4,7 @@ clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo 
 wait
 
 # Setting up supervisor
-clear; sudo easy_install supervisor; sudo mkdir /etc/supervisor; sudo cp ~/ttr-web/lib/supervisord.conf /etc/supervisor/; sudo mkdir /etc/supervisor/conf.d; sudo cp ~/ttr-web/lib/supervisord.service /etc/systemd/system/; sudo cp ~/ttr-web/lib/startup.sh /bin/; chmod +X /bin/startup.sh; sudo cp ~/ttr-web/lib/startup.conf /etc/supervisor/conf.d/; sudo supervisorctl reread; sudo supervisorctl update; sudo supervisorctl
+clear; sudo mkdir /etc/supervisor; sudo cp ~/ttr-web/lib/supervisord.conf /etc/supervisor/; sudo cp ~/ttr-web/lib/supervisord.service /etc/systemd/system/; sudo mkdir /etc/supervisor/conf.d; sudo cp ~/ttr-web/lib/supervisord.service /etc/systemd/system/; sudo cp ~/ttr-web/lib/startup.sh /usr/local/bin/; chmod +x /usr/local/bin/startup.sh; sudo cp ~/ttr-web/lib/startup.conf /etc/supervisor/conf.d/; sudo supervisorctl reread; sudo supervisorctl update;
 wait
 
 # Setting up tomcat8
