@@ -16,7 +16,7 @@ clear; sudo dpkg -i ~/ttr-web/lib/shticker-book-rewritten_1.2.1_amd64.deb; sudo 
 wait
 
 # Setting up Apache Guacamole
-clear; sudo rm /etc/guacamole/user-mapping.xml; sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole
+clear; sudo rm /etc/guacamole/user-mapping.xml; sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole/
 wait
 
 # Setting up xfce4
