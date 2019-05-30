@@ -24,7 +24,7 @@ sudo unzip ~/ttr-web/lib/xfce4.zip; sudo unzip ~/ttr-web/lib/Thunar.zip; sudo cp
 wait
 
 # Setting up xrdp
-clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp; chmod +x /etc/xrdp/startwm.sh; echo xfce4-session >~/.xsession
+clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo xfce4-session >~/.xsession
 wait
 
 # Restarting scripts
