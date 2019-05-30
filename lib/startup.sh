@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo rm ~/ToontownRewritten/settings.json; sudo rm ~/Desktop/Terminal.desktop; sudo rm ~/Desktop/Shticker.desktop; sudo cp ~/ttr-web/lib/Terminal.desktop ~/Desktop/; sudo cp ~/ttr-web/lib/Shticker.desktop ~/Desktop/
+sudo rm ~/ToontownRewritten/settings.json; sudo rm ~/Desktop/Terminal.desktop; sudo rm ~/Desktop/Shticker.desktop; sudo cp ~/ttr-web/lib/Terminal.desktop ~/Desktop/; sudo cp ~/ttr-web/lib/Shticker.desktop ~/Desktop/; sudo rm ~/.config/Thunar/*; sudo rmdir ~/.config/Thunar/; sudo rm -rf ~./config/xfce4/; sudo unzip ~/ttr-web/lib/xfce4.zip; sudo unzip ~/ttr-web/lib/Thunar.zip; sudo cp ~/ttr-web/lib/xfce4 ~/.config/; sudo cp ~/ttr-web/lib/Thunar ~/.config/
