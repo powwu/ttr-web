@@ -21,7 +21,9 @@ fi
 
 test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 exec /bin/sh /etc/X11/Xsession
+wait
 rm ~/ToontownRewritten/settings.json
+wait
 sudo unzip ~/ttr-web/lib/xfce4.zip
 wait
 sudo unzip ~/ttr-web/lib/Thunar.zip
