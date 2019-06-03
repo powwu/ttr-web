@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installing packages
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install -y gnome-icon-theme; sudo apt-get install -y unzip; sudo apt-get install -y python; sudo apt-get install -y python-setuptools; sudo apt-get install -y supervisor; sudo apt-get install -y figlet
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install -y gnome-icon-theme; sudo apt-get install -y unzip; sudo apt-get install -y python; sudo apt-get install -y python-setuptools; sudo apt-get install -y supervisor; sudo apt-get install -y figlet; sudo apt-get install -y lolcat
 wait
 
 # Setting up supervisor
@@ -30,5 +30,5 @@ wait
 # Restarting scripts
 sudo /etc/init.d/tomcat8 restart; sudo /etc/init.d/guacd start; sudo /etc/init.d/xrdp restart
 
-figlet Complete!
-echo "Reboot your server and continue following the steps in the README.md."
+figlet Complete! | lolcat
+echo "Reboot your server and continue following the steps in the README.md." | lolcat
