@@ -1,0 +1,3 @@
+#!/bin/sh
+shticker-book-rewritten &
+openbox

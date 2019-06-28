@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installing packages
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install -y gnome-icon-theme; sudo apt-get install -y unzip; sudo apt-get install -y python; sudo apt-get install -y python-setuptools; sudo apt-get install -y supervisor; sudo apt-get install -y figlet; sudo apt-get install -y lolcat
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install openbox; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install -y gnome-icon-theme; sudo apt-get install -y unzip; sudo apt-get install -y python; sudo apt-get install -y python-setuptools; sudo apt-get install -y supervisor; sudo apt-get install -y figlet; sudo apt-get install -y lolcat
 wait
 
 # Setting up supervisor
@@ -18,6 +18,9 @@ wait
 # Setting up Apache Guacamole
 clear; sudo rm /etc/guacamole/user-mapping.xml; sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole/
 wait
+
+# Setting up DE
+clear; sudo mv ~/ttr-web/lib/ttr-web /usr/local/bin/ttr-web; sudo chmod +x /usr/local/bin/ttr-web; sudo mv ~/ttr-web/lib/ttr-web.desktop /usr/share/xsessions/ttr-web.desktop
 
 # Setting up xrdp
 clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo ttr-web >~/.xsession
