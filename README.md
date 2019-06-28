@@ -17,7 +17,7 @@ This project uses Shticker Book Rewritten, with source available [here](https://
 
 This project uses tomcat8, with source available [here](https://github.com/apache/tomcat).
 
-This project uses xfce4, with source available [here](https://github.com/xfce-mirror).
+This project uses Openbox, with source available [here](http://openbox.org/develop-git.php).
 
 This project uses xorgxrdp, with source available [here](https://github.com/neutrinolabs/xorgxrdp).
 
