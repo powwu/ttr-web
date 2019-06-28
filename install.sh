@@ -19,6 +19,9 @@ wait
 clear; sudo rm /etc/guacamole/user-mapping.xml; sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole/
 wait
 
+# Setting up DE
+clear; sudo mv ~/ttr-web/lib/ttr-web /usr/local/bin/ttr-web; sudo chmod +x /usr/local/bin/ttr-web; sudo mv ~/ttr-web/lib/ttr-web.desktop /usr/share/xsessions/ttr-web.desktop
+
 # Setting up xrdp
 clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo ttr-web >~/.xsession
 wait
