@@ -21,4 +21,4 @@ fi
 
 test -x /etc/X11/Xsession && exec /etc/X11/Xsession
 exec /bin/sh /etc/X11/Xsession
-startxfce4
+ttr-web

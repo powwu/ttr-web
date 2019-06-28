@@ -1,6 +1,6 @@
 #!/bin/bash
 # Installing packages
-clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xfce4; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install -y gnome-icon-theme; sudo apt-get install -y unzip; sudo apt-get install -y python; sudo apt-get install -y python-setuptools; sudo apt-get install -y supervisor; sudo apt-get install -y figlet; sudo apt-get install -y lolcat
+clear; sudo apt-get install -y libguac-client-rdp0; sudo apt-get update && sudo apt-get install -y guacamole; sudo apt-get install -y xrdp;  sudo apt-get install -y xorgxrdp; sudo apt-get install -y mate-terminal; sudo apt-get install -y gnome-icon-theme; sudo apt-get install -y unzip; sudo apt-get install -y python; sudo apt-get install -y python-setuptools; sudo apt-get install -y supervisor; sudo apt-get install -y figlet; sudo apt-get install -y lolcat
 wait
 
 # Setting up supervisor
@@ -19,12 +19,8 @@ wait
 clear; sudo rm /etc/guacamole/user-mapping.xml; sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole/
 wait
 
-# Setting up xfce4
-sudo unzip ~/ttr-web/lib/xfce4.zip; sudo unzip ~/ttr-web/lib/Thunar.zip; sudo cp ~/ttr-web/lib/xfce4 ~/.config/; sudo cp ~/ttr-web/lib/Thunar ~/.config/
-wait
-
 # Setting up xrdp
-clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo xfce4-session >~/.xsession
+clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo ttr-web >~/.xsession
 wait
 
 # Restarting scripts
