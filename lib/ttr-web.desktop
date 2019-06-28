@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=ttr-web
+Comment=DE used for ttr-web.
+Exec=/usr/local/bin/ttr-web
+TryExec=/usr/local/bin/ttr-web
+Type=XSession
