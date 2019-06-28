@@ -19,10 +19,6 @@ wait
 clear; sudo rm /etc/guacamole/user-mapping.xml; sudo cp ~/ttr-web/lib/user-mapping.xml /etc/guacamole/
 wait
 
-# Setting up xfce4
-sudo unzip ~/ttr-web/lib/xfce4.zip; sudo unzip ~/ttr-web/lib/Thunar.zip; sudo cp ~/ttr-web/lib/xfce4 ~/.config/; sudo cp ~/ttr-web/lib/Thunar ~/.config/
-wait
-
 # Setting up xrdp
 clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo xfce4-session >~/.xsession
 wait
