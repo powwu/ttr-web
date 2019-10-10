@@ -26,6 +26,9 @@ clear; sudo mv ~/ttr-web/lib/ttr-web /usr/local/bin/ttr-web; sudo chmod +x /usr/
 clear; sudo rm /etc/xrdp/startwm.sh; sudo cp ~/ttr-web/lib/startwm.sh /etc/xrdp/; chmod +x /etc/xrdp/startwm.sh; echo ttr-web >~/.xsession
 wait
 
+# Creating reminder file to start on boot
+clear; sudo echo 'Please check the wiki on Github if you have a problem. If you find a bug, or your answer is not on the wiki, please put it in the Github issues page.' >/usr/lib/ttr-web/boot
+
 # Restarting scripts
 sudo /etc/init.d/tomcat8 restart; sudo /etc/init.d/guacd start; sudo /etc/init.d/xrdp restart
 
