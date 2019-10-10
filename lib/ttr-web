@@ -1,4 +1,4 @@
 #!/bin/sh
-leafpad /usr/local/bin/ttr-web/boot
+leafpad /usr/local/bin/ttr-web/boot &
 shticker-book-rewritten &
 openbox
